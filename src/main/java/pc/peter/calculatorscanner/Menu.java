@@ -20,7 +20,8 @@ public class Menu {
 			System.out.println("\t 1. Addition");
 			System.out.println("\t 2. Subtraction");
 			System.out.println("\t 3. Multiplication");
-			System.out.println("\t 4. Division \r\n");
+			System.out.println("\t 4. Division");
+			System.out.println("\t 5. Square Root \r\n");			
 			System.out.println("\t 0. Exit application");
 			System.out.println("-".repeat(60));
 			System.out.print("What is your choice? ");
@@ -77,6 +78,17 @@ public class Menu {
 				input.nextLine();
 				System.out.print("(Division) This equals = ");
 				System.out.println(CalculatorScanner.div(num1, num2));
+				System.out.println("-".repeat(60) + "\r\n");
+				break;
+			
+			case "5":
+//				Square Root
+				System.out.println("-".repeat(60));
+				System.out.print("Enter your number: ");
+				num1 = this.input.nextDouble();
+				input.nextLine();
+				System.out.print("(SQRT) This equals = ");
+				System.out.println(CalculatorScanner.sqrt(num1));
 				System.out.println("-".repeat(60) + "\r\n");
 				break;
 

@@ -38,4 +38,10 @@ public class CalculatorScanner {
 
 	}
 
+	public static double sqrt(double num1) {
+		
+		double result = Math.sqrt(num1);
+		return result;
+	}
+
 }
