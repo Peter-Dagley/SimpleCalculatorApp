@@ -15,8 +15,9 @@ public class Menu {
 		double num2;
 
 		while (menuFlag) {
+//			Menu Introduction
 			System.out.println("-".repeat(60));
-			System.out.println("This is a calculator. Please choose a method:");
+			System.out.println("This is a simple calculator. Please choose a method:");
 			System.out.println("\t 1. Addition");
 			System.out.println("\t 2. Subtraction");
 			System.out.println("\t 3. Multiplication");
